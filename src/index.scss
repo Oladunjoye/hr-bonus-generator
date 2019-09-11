@@ -1,0 +1,130 @@
+.mainpage{
+    min-height: 100vh;
+    header{
+        margin: 10px auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .welcome-address{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .employees{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center!important;
+        .col{
+            max-width: 370px;
+        }
+        .card{
+            margin-bottom: 30px;
+        }
+        // img{
+        //     border-radius: 50%;
+        //     margin: 0 auto;
+        // }
+        img{
+            width: 100%;
+        }
+    }
+    .button-layer{
+        margin-top: 10px; 
+        text-align: center;
+    }
+}
+@media (max-width: 365px){
+.mainpage{
+
+  .employees{
+    .card{
+        max-width: 220px;
+        // height: 50%;
+    }
+    img{
+        // width: 30%;
+    }
+}
+}
+}
+
+.bonus-page{
+    margin: 50px auto;
+    height:100vh;
+}
+
+.single-page{
+    font-family: "Montserrat";
+    font-weight: 500;
+    height:100%;
+    padding:20px 0;
+    width: 50vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    img{
+        border-radius:50%;
+        height: 250px;
+        width: 250px;
+        margin-top: 20px;
+
+    }
+
+    .core-details{
+        margin-top: 20px;
+        width: 80%;
+        border: 1px solid black;
+        padding:20px;
+        .core-items{
+            display: flex;
+            justify-content: space-between;
+           
+        }
+    }
+
+    .secondary-details{
+        margin-top:20px;
+        width: 80%;
+        padding:20px;
+        border: 1px solid black;
+
+        legend{
+           display: flex;
+           justify-content: center;
+        }
+        .secondary-items{
+            display: flex;
+            justify-content: space-between;
+           
+            padding-top:15px;
+            border-bottom: 0.2px solid #b1b1ae;
+        }
+    }
+}
+
+.footer-group{
+    text-align: center;
+    ul{
+        padding: 0;
+    }
+}
+.footer-link {
+    align-self: center !important;
+    justify-self: center  !important;
+}
+
+#hr-span{
+    margin-right: 10px;
+}
+
+.not-found{
+    height:100%;
+   
+}
+
